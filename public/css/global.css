@@ -1,0 +1,73 @@
+html,body{background: #fff;
+	background: #FCFCFC;
+	
+	position:relative;
+	overflow-x:hidden; 
+	font-family: "微软雅黑";
+	color: #7C7C7C;
+}
+.wrapper{
+	overflow-x:hidden; 
+}
+
+a:hover {
+color: #000;
+}
+a {
+text-decoration: none;
+color: #848484;
+transition: all 0.2s;
+}
+header textarea,input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"] {
+font-family: "微软雅黑";
+font-size: 12px;
+box-shadow: none;
+padding:10px;
+background: transparent;
+border-radius: 0;
+outline: 0;
+}
+.top textarea,input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"] {
+font-family: "微软雅黑";
+font-size: 12px;
+box-shadow: none;
+padding:10px;
+background: transparent;
+border-radius: 0;
+outline: 0;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="phone"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="datetime"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="color"]:focus, input[type="time"]:focus, input[type="search"]:focus, input[type="datetime-local"]:focus, textarea:focus {
+outline: 0;
+border: 1px solid #2575ed;
+-webkit-box-shadow: 0 0 0px 1000px rgb(234, 236, 255) inset;
+box-shadow: 0 0 0px 1000px rgb(234, 236, 255) inset;
+font-family: "微软雅黑";
+background: #E8EDF8;
+}
+textarea[disabled], input[type="text"][disabled], input[type="password"][disabled], input[type="email"][disabled], input[type="url"][disabled], input[type="phone"][disabled], input[type="tel"][disabled], input[type="number"][disabled], input[type="datetime"][disabled], input[type="date"][disabled], input[type="month"][disabled], input[type="color"][disabled], input[type="time"][disabled], input[type="search"][disabled], input[type="datetime-local"][disabled] {
+resize: none;
+color: #1D1D1D;
+}
+.btn, input[type="submit"].btn{
+	font-family: "微软雅黑";
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "微软雅黑";
+	font-weight: 100;
+	color:#636363;
+}
+header input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 4px rgba(221, 216, 216, 0.74),0 0 0px 1002px #fcfcfc inset;
+
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    padding: 9px;
+}
+header input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 3px rgba(162, 159, 224, 0.74),0 0 0px 1000px #E8EDF8 inset;
+
+}
