@@ -17,17 +17,9 @@ a {
 text-decoration: none;
 color: #848484;
 transition: all 0.2s;
+cursor: pointer;
 }
-header textarea,input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"] {
-font-family: "微软雅黑";
-font-size: 12px;
-box-shadow: none;
-padding:10px;
-background: transparent;
-border-radius: 0;
-outline: 0;
-}
-.top textarea,input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"] {
+textarea,input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="phone"], input[type="tel"], input[type="number"], input[type="datetime"], input[type="date"], input[type="month"], input[type="color"], input[type="time"], input[type="search"], input[type="datetime-local"] {
 font-family: "微软雅黑";
 font-size: 12px;
 box-shadow: none;
@@ -39,7 +31,7 @@ outline: 0;
 input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="phone"]:focus, input[type="tel"]:focus, input[type="number"]:focus, input[type="datetime"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="color"]:focus, input[type="time"]:focus, input[type="search"]:focus, input[type="datetime-local"]:focus, textarea:focus {
 outline: 0;
 border: 1px solid #2575ed;
--webkit-box-shadow: 0 0 0px 1000px rgb(234, 236, 255) inset;
+/*-webkit-box-shadow: 0 0 0px 1000px rgb(234, 236, 255) inset;*/
 box-shadow: 0 0 0px 1000px rgb(234, 236, 255) inset;
 font-family: "微软雅黑";
 background: #E8EDF8;
@@ -56,7 +48,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-weight: 100;
 	color:#636363;
 }
-header input:-webkit-autofill {
+input:-webkit-autofill {
     -webkit-box-shadow: 0 0 4px rgba(221, 216, 216, 0.74),0 0 0px 1002px #fcfcfc inset;
 
     border-radius: 3px;
@@ -67,7 +59,63 @@ header input:-webkit-autofill {
     font-size: 12px;
     padding: 9px;
 }
-header input:-webkit-autofill:focus {
+input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 3px rgba(162, 159, 224, 0.74),0 0 0px 1000px #E8EDF8 inset;
 
+}
+.top input[type="text"] {
+color: #fff;
+width: 200px;
+position: absolute;
+border-radius: 4px;
+padding: 7px;
+border: 1px solid #A182EC;
+right: 30px;
+margin-top: 10px;
+}
+header {
+padding: 20px;
+padding-left: 50px;
+padding-right: 100px;
+padding-bottom: 40px;
+}
+.navbar li {
+font-size: 14px;
+display: inline-block;
+margin-left: 10px;
+}
+header .left {
+font-size: 16px;
+}
+nav.navbar {
+margin-top: 3px;
+}
+.top{
+	height:350px;
+	background: url('../images/1154618155e524a904o.jpg');
+	background-position-Y:-100px;
+}
+.logo{
+	padding-top: 150px;
+	padding-left: 10%;
+	font-size: 40px;
+	color:#fff;
+	line-height: 50px;
+}
+header i.fa.fa-book {
+font-size: 24px;
+position: absolute;
+margin-left: 5px;
+color: #69CFCB;
+}
+footer{
+	padding:40px;
+}
+footer p{
+
+	text-align: center;
+	border-top: 1px solid rgb(232, 232, 232);
+}
+.btn{
+	font-size: 12px;
 }

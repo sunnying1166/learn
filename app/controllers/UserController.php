@@ -152,4 +152,13 @@ class UserController extends BaseController{
 		}
 		return View::make('hello')->with('msg','CompleteInfo');
 	}
+
+	/*
+	*infochange
+	*/
+	public function infochange(){
+		$msg = Input::all();
+		Log::info($msg);
+		return Redirect::route('info', array('msg' => 'success'));
+	}
 }

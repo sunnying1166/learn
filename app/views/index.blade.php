@@ -1,47 +1,12 @@
-<!DOCTYPE html>
-<html><head>
-    <title>主页</title>
+@extends('layout')
+@section('head')
+	@parent
+	<title>首页</title>
+@stop	
+	@include("header")
+	@include("top")
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="css/kube.min.css">
-    <link rel="stylesheet" type="text/css" href="css/global.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" href="css/font-awesome.css" type="text/css">
-    <!-- <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css"> -->
-    <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script type="text/javascript" src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  
-</head>
-<body >
-	<header>
-		<div class="left">小八哥学汉字<i class="fa fa-book"></i></div>
-		<div class="right">
-			<nav class="navbar">
-				<ul>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">同步课堂</a></li>
-					<li><a href="#">同步练习</a></li>
-					<li><a href="#">互动社区</a></li>
-					<li><a href="#">边学边玩</a></li>
-					<li><a href="#">个人中心</a></li>
-					@if(!Auth::check())
-					<li><a href="/user/login">登陆</a></li>
-					<li><a href="#">注册</a></li>
-					@endif
-					@if(Auth::check())
-					<li><a href="">{{Auth::user()->nickname}}</a></li>
-					@endif
-				</ul>
-				</nav>
-
-		</div>
-	</header>			
-	<div class="top"><input name="reply" type="text" class="input-reply width-100" placeholder="搜索课程">
-		<div class="logo">人学始知道，不学非自然——《劝学》</div>
-	</div>
+	@section('body')
 	<div class="main">
 
 		<div class="units-row content">
@@ -201,9 +166,6 @@
 		</div>
 		
 	</div>		
-	<footer>
-		<p>小八哥学习网站</p>
-	</footer>
+
 <script type="text/javascript" src="js/globle.js"></script>
-</body>
-</html>
+	@stop
