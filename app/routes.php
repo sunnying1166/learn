@@ -10,7 +10,11 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+Route::get('hello',array('as' => 'hello', function(){
+	$text = Session::get('text');
+	Log::info($text);
+	return View::make('hello')->with('text', $text);}));
+Route::get('/test','CourseController@getByGrade');
 Route::get('/', function()
 {
 	return View::make('hello')->with('msg', 'success');
@@ -28,7 +32,7 @@ Route::post('/user/completeRegister','UserController@register');
 Route::get('post', function(){return View::make('post');});
 Route::get('info', array('as'=>'info','uses'=>function(){return View::make('info');}));
 Route::get('forum', function(){return View::make('forum');});
-Route::get('course', function(){return View::make('course');});
+Route::get('course', 'CourseController@getByGrade');
 /************************Sententce Order******************************/
 
 Route::get('/SentenceOrder','OrdersentController@getAll');

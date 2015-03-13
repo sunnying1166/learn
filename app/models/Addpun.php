@@ -1,4 +1,4 @@
-<?
+<?php
 class Addpun extends Eloquent {
 
 	public $timestamps = false;

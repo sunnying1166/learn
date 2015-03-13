@@ -1,4 +1,4 @@
-<?
+<?php
 class Abbsent extends Eloquent {
 
 	public $timestamps = false;

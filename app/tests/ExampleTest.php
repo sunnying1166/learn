@@ -27,10 +27,14 @@ class ExampleTest extends TestCase {
 		$this->assertEquals('testing success',$response->getContent());
 		//----------------------------------*/
 
-		//--------------OrdersentController---------
+		/*/--------------OrdersentController---------
 		$response = $this->call('get', '/SentenceOrder');
 		$this->assertEquals('success', $response->getContent());
 		//----------------------------------------------*/
+
+		//---------------CourseController---------------
+		$response = $this->call('get','test');
+		$this->assertEquals('success', $response->getContent());
 	}
 
 }
