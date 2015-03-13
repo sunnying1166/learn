@@ -1,0 +1,75 @@
+a.btn.btn-blue {
+font-size: 12px;
+margin: auto;
+margin-left: 50px;
+}
+.main-left {
+    text-align: left;
+}
+.main-right {
+    text-align: left;
+}
+.links {
+padding: 10px;
+padding-bottom: 0px;
+padding-left: 50px;
+}
+.main-left h5 {
+margin-top: 30px;
+/* background: #F4F4F4; */
+
+padding: 6px;
+border-bottom: 1px solid #EFEFEF;
+margin-left: 30px;
+text-align: left;
+}
+.main-right h5{
+margin-left:100px;
+
+margin-top: 10px;
+background: #F4F4F4;
+padding: 6px;
+max-width: 200px;
+}
+.info-form input[type='txt']{
+
+font-family: "微软雅黑";
+font-size: 12px;
+background: transparent;
+padding-bottom: 5px;
+min-width: 300px;
+outline: none;
+border:1px solid #ccc;
+padding: 7px;
+line-height: initial;
+border-radius: 0;
+
+}
+.info-form select{
+	font-family: "微软雅黑";
+font-size: 12px;
+background: transparent;
+min-width: 50px;
+margin-top: 10px;
+padding: 6px;
+border: 1px solid #ccc;
+color: #A1A1A1;
+}
+.info-form{
+	width: 80%;
+	margin: 20px auto;
+}
+table.table {
+    font-size: 12px;
+}
+
+.info-form textarea {
+    height: 150px;
+}
+
+.table th {
+    padding-top: 15px;
+}
+.btn{
+	margin-right: 50px;
+}

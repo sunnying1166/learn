@@ -1,0 +1,98 @@
+.main{
+	padding:50px;
+	text-align: center;
+}
+h5{
+
+border-bottom: 1px solid #EFEFEF;
+margin-top: 10px;
+text-align: left;
+padding: 6px;
+}
+input.input-search.unit-30 {
+min-width: 200px;
+padding: 8px;
+margin-right: 20px;
+
+}
+ul.page {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+ul.page li {
+    display: inline;
+}
+
+.right {
+    margin-top: -50px;
+}
+
+ul.page li a {
+    background: #999BA1;
+    padding: 4px;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #2F3030;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+img.head {
+    width: 80px;
+    box-shadow: 0 0 0 3px white, 0 0 0 4px #747775;
+    margin-bottom: 10px;
+}
+
+a.name {
+
+}
+.content{
+	padding-left:30px;
+	padding-right:30px;
+}
+.content p{
+	text-align: left;
+	font-size: 12px;
+}
+.post-content{
+	padding-left: 70px;
+}
+.post-left{
+	background: #eee;
+	padding-top: 30px;
+	height: 300px;
+	border:1px solid #ccc;
+	
+
+}
+.post-content:first-child .post-left{
+	margin-top: 5px;
+}
+.post-right.unit-80{
+	
+	padding-top: 30px;
+	height: 300px;
+	border:1px solid #ccc;
+	margin: 0px;
+	margin-left: -1px;
+	overflow: hidden;
+}
+.post-info .units-row{
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+}
+@media screen and (max-width: 767px) {
+.post-left.unit-20{
+	height: 150px;
+	margin-bottom: 5px;
+	
+
+}
+h5{
+	visibility: hidden;
+}
+}

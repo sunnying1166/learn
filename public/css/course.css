@@ -1,0 +1,74 @@
+input[type="text"] {
+color: #fff;
+width: 200px;
+position: absolute;
+border-radius: 4px;
+padding: 7px;
+border: 1px solid #A182EC;
+right: 30px;
+margin-top: 10px;
+}
+input[type="text"]:focus {
+box-shadow: none;
+background: rgba(38, 44, 161, 0.53);
+border: 1px solid #AEDDFF;
+}
+footer{
+	padding:40px;
+}
+footer p{
+
+	text-align: center;
+	border-top: 1px solid rgb(232, 232, 232);
+}
+.main-left h5 {
+margin-top: 30px;
+/* background: #F4F4F4; */
+padding: 6px;
+border-bottom: 1px solid #EFEFEF;
+margin-left: 30px;
+text-align: left;
+}
+.main-mid h5 {
+margin-left: 30px;
+margin-top: 10px;
+background: #F4F4F4;
+padding: 6px;
+}
+.artic {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+
+.artic p {
+    /* text-align: left; */
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+a.btn.btn-blue {
+font-size: 12px;
+margin: auto;
+margin-left: 50px;
+}
+.main-left {
+    text-align: left;
+}
+.main ul {
+margin-left: 50px;
+}
+.links{
+padding:10px;
+padding-bottom: 0px;
+padding-left: 50px;
+}
+.newword ul {
+max-height: 200px;
+overflow: auto;
+}
+.exp ul {
+max-height: 200px;
+overflow: auto;
+}
