@@ -5,7 +5,6 @@
 @stop
 
 @section('body')
- 
 	@include("header")
 	@include("top")
 	<div class="main">
@@ -34,16 +33,9 @@
 				<div class="newword">
 					<h5>诗歌生词</h5>
 					<ul>
-						<li>蟋 (xi)</li>
-						<li>蟀 (shuai)</li>
-						<li>蟋 (xi)</li>
-						<li>蟀 (shuai)</li>
-						<li>蟋 (xi)</li>
-						<li>蟀 (shuai)</li>
-						<li>蟋 (xi)</li>
-						<li>蟀 (shuai)</li>
-						<li>蟋 (xi)</li>
-						<li>蟀 (shuai)</li>
+						@foreach($anno as $item)
+						<li class="strange">{{$item['zixing']}}({{$item['zipinyin']}})</li>
+						@endforeach
 					</ul>
 				</div>
 				<div class="exp">
@@ -70,21 +62,47 @@
 			</div>
 			<div class="main-right unit-40">
 				<div class="artic">
-					<h3>9.古诗两首</h3>
-					<h4>夜书所见</h4>
+					<h3>9.{{$single_text['texttitle']}}</h3>
 					<a id="show-modal"
     data-tools="modal" data-width="700" 
-    data-title="叶绍翁" data-content="modal/modal.html">叶绍翁</a>
+    data-title="叶绍翁" data-content="modal/modal.html">{{$single_text['textauthor']}}</a>
 					<div class="content">
-						<p>萧萧梧叶送寒声①，<br>江上秋风②动客情。<br>
-						知有儿童③挑促织，<br>夜深篱④落一灯明。</p>
+						<p>
+							{{$single_text['textcont']}}
+						</p>
+						<!-- <p>萧萧梧叶送寒声①，<br>江上秋风②动客情。<br>
+						知有儿童③挑促织，<br>夜深篱④落一灯明。</p> -->
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>		
+	
 	<footer>
 		<p>小八哥学习网站</p>
-		
 	</footer>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$(".strange").each(function(){
+			alert('hello');
+			var $x=-70;
+   			var $y=-80;
+			$(this).mouseover(function(e){
+				var dom = '<div class="box"><p>今天的天气不错</p></div>';
+				$("body").append(dom);
+				$(".mapDiv").css({
+			      top: (e.pageY + $y)+"px",
+			      left: (e.pageX + $x)+"px"
+			     }).show("fast");
+			}).mouseout(function(){
+				$('.box').remove();
+			}).mousemove(function(e){
+				$(.box).css({
+					top: (e.pageY + $y)+"px",
+      				left: (e.pageX + $x)+"px"
+				});
+			});
+		});
+	});
+	</script>
 @stop

@@ -35,12 +35,11 @@
 						<div class="post-info">
 							<div class="units-row">
 							<p class="unit-80 ">发表于：2011-8-16 9:50:23</p>
-							<span class="unit-10 seat">板凳</span>
+							<span class="unit-10 seat">沙发</span>
 							</div>
 
 							
-							<div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<div class="content"><p>王维（701年－761年，一说699年—761年），汉族，唐朝河东蒲州（今山西运城）人，祖籍山西祁县，唐朝著名诗人、画家，字摩诘，号摩诘居士，世称“王右丞”，早年信道，后期因社会打击彻底禅化。存诗400余首，代表诗作有《相思》、《山居秋暝》等。王维参禅悟理,学庄信道,精通诗、书、画、音乐等，与孟浩然合称“王孟”。
 								</p>
 							</div>
 						</div>

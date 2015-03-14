@@ -52,19 +52,17 @@
 					<div class="unit-50">
 						<h5>同步课堂</h5>
 						<ul>
-							<li><a href="#">第一课...</a></li>
-							<li><a href="#">第二课...</a></li>
-							<li><a href="#">第三课...</a></li>
-							<li><a href="#">第四课...</a></li>
+							@foreach($text as $item)
+							<li><a href="course/{{$item['textid']}}">{{$item['texttitle']}}</a></li>
+							@endforeach
 						</ul>
 					</div>
 					<div class="unit-50">
 						<h5>同步练习</h5>
 						<ul>
-							<li><a href="#">第一课...</a></li>
-							<li><a href="#">第二课...</a></li>
-							<li><a href="#">第三课...</a></li>
-							<li><a href="#">第四课...</a></li>
+							@foreach($text as $item)
+							<li><a href="course/{{$item['textid']}}">{{$item['texttitle']}}</a></li>
+							@endforeach
 						</ul>
 					</div>
 

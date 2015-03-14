@@ -16,75 +16,15 @@
 			<li>会员：31231</li>
 		</ul>
 		<table class="table table-stripped">
+		@for($i = 0; $i < 10; $i++)
 			<tr>
 				<td>标题|类型</td>
-				<td> <a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
+				<td> <a href="post"> 《风筝》的生词“憧憬”是什么意思？</a></td>
 				<td>35/35</td>
 				<td>steve</td>
 				<td>2015-3-10</td>
 			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr><tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr><tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-			<tr>
-				<td>标题|类型</td>
-				<td><a href="post.html"> Lorem ipsum dolor sit amet...</a></td>
-				<td>35/35</td>
-				<td>steve</td>
-				<td>2015-3-10</td>
-			</tr>
-
+		@endfor
 		</table>
 	</div>		
 	@include('footer')
