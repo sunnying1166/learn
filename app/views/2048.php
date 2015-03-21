@@ -71,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="tile-container"><div class="tile tile-2 tile-position-1-3"><div class="tile-inner">东门</div></div><div class="tile tile-8 tile-position-1-4"><div class="tile-inner">小岛</div></div><div class="tile tile-2 tile-position-2-4"><div class="tile-inner">东门</div></div><div class="tile tile-2 tile-position-2-4"><div class="tile-inner">东门</div></div><div class="tile tile-4 tile-position-2-4 tile-merged"><div class="tile-inner">北村</div></div><div class="tile tile-2 tile-position-3-4"><div class="tile-inner">东门</div></div><div class="tile tile-2 tile-position-4-2 tile-new"><div class="tile-inner">东门</div></div></div>
+		<div class="tile-container"><div class="tile tile-2 tile-position-1-3"><div class="tile-inner">人</div></div><div class="tile tile-8 tile-position-1-4"><div class="tile-inner">木</div></div><div class="tile tile-2 tile-position-2-4"><div class="tile-inner">人</div></div><div class="tile tile-2 tile-position-2-4"><div class="tile-inner">木</div></div><div class="tile tile-4 tile-position-2-4 tile-merged"><div class="tile-inner">人</div></div><div class="tile tile-2 tile-position-3-4"><div class="tile-inner">人</div></div><div class="tile tile-2 tile-position-4-2 tile-new"><div class="tile-inner">人</div></div></div>
 	</div>
 	<script charset="utf-8" src="./js/s.js"></script><script src="./js/bind_polyfill.js"></script>
 	<script src=".//classlist_polyfill.js"></script>

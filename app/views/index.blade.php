@@ -14,7 +14,7 @@
 				<!-- ----------------------------------------------未登录状态 -->
 				@if(!Auth::check())
 				<div class="log">
-				<p><img src="images/小八哥学汉字图标.png"></p>
+				<p><img src="/images/小八哥学汉字图标.png"></p>
 					<p>你好，您尚未<a href="/user/login">登陆</a> , 还没账号？<a href="/user/register">点此</a>注册</p>
 				</div>
 				@endif
@@ -24,7 +24,7 @@
 				@if(Auth::check())
 				<div class="infobox">
 					<div class="head-big">
-						<img src="images/hp14.jpg">
+						<img src="/images/hp14.jpg">
 						<p>{{Auth::user()->nickname}}</p>
 					
 					<a href="/user/logout">点此注销</a>
@@ -104,7 +104,7 @@
 					
 					
 					<div class="unit-30">
-						<img src="images/每日一答.png">
+						<img src="/images/dailyQ.png">
 						<div style="clear:both;"></div>
 						<button class="btn btn-blue">提交答案</button>
 					</div>
@@ -118,10 +118,10 @@
 			<h5>边学边玩</h5>
 			<div class="game units-row">
 				<div class="unit-50">
-					<img src="images/game.png"><a href="flappy小八哥.html" target="view_window">flappy小八哥</a>
+					<img src="/images/game.png"><a href="/flappy" target="view_window">flappy小八哥</a>
 				</div>
 				<div class="unit-50">
-					<img src="images/game.png"><a href="小八哥版2048！.html" target="view_window">小八哥2048</a>
+					<img src="/images/game.png"><a href="/2048" target="view_window">小八哥2048</a>
 
 				</div>
 			</div>	

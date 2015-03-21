@@ -1,0 +1,19 @@
+﻿latest version
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   app/controllers/CourseController.php
+#	modified:   app/models/Text.php
+#	modified:   app/models/Word.php
+#	modified:   app/routes.php
+#	modified:   app/views/course.blade.php
+#	modified:   app/views/forum.blade.php
+#	modified:   app/views/header.blade.php
+#	modified:   app/views/index.blade.php
+#	modified:   app/views/layout.blade.php
+#	modified:   app/views/post.blade.php
+#
+

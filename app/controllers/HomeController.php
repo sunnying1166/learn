@@ -41,9 +41,10 @@ class HomeController extends BaseController {
 		if($sd < 10)
 			$sd = "0" . (string)$sd ;
 		$sd = "03";
+		$count = Yicuopinyin::count();
 		// $items = DB::raw('select * from yicuobihua where ycbhsd like "'.$sd.'%"');
-		$items = DB::raw('select * from yicuobihua');
-		$items = DB::table('yicuobihua')->where('ycbhsd', 'like', $sd)->get();
+		// $items = DB::raw('select * from yicuobihua');
+		$items = DB::table('yicuobihua')->where('ycbhsd', 'like', $sd."%")->get();
 		var_dump($items); 
 		// $arr = $this->getNumsofItem($items);
 

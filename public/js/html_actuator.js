@@ -51,7 +51,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
   }
 };
 
-HTMLActuator.prototype.tileHTML = ["大", "太", "日", "曰", "土", "士", "宇", "字", "晴", "睛", "小八哥"];
+HTMLActuator.prototype.tileHTML = ["人","从","众","土", "圭", "垚", "木", "林", "森", "日", "昌", "晶", "火","炎","焱","小八哥"];
 
 HTMLActuator.prototype.addTile = function (tile) {
   var self = this;
@@ -133,7 +133,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "小八哥 学汉字!哦不对。。。你赢了小八哥 2048！" : "你被小八哥打败了!";
+  var message = won ? "小八哥 学汉字!哦不对。。。你赢了小八哥 2048！" : "被小八哥打败!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);

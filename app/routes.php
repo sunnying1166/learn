@@ -69,3 +69,5 @@ Route::post('user/infochange','UserController@infochange');
 Route::get('/game', function(){
 	return View::make('bird');
 });
+Route::get('flappy',function(){return View::make('flappy');});
+Route::get('2048', function(){return View::make('2048');});

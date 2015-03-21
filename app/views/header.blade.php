@@ -9,8 +9,13 @@
 					<li><a href="/forum">互动社区</a></li>
 					<li><a href="#">边学边玩</a></li>
 					<li><a href="/info">个人中心</a></li>
+					@if(!Auth::check())
 					<li><a href="/user/login">登陆</a></li>
 					<li><a href="/user/reg">注册</a></li>
+					@endif
+					@if(Auth::check())
+					<li><a href="/info">{{Auth::user()->nickname}}</a></li>
+					@endif
 				</ul>
 				</nav>
 		</div>

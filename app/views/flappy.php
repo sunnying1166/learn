@@ -8,7 +8,7 @@
 <body>
 
 
-<script type="text/javascript" src="js/flappy小八哥.js"></script>
+<script type="text/javascript" src="/js/flappy.js"></script>
 
 
 </body>
