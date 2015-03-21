@@ -7,30 +7,47 @@
 	@include("header")		
 	@include("top")
 	<div class="main">
-		<div class="units-row">
-			<div class="main-left unit-30">
-				<h5>同步课堂</h5>
-				<ul>
-					<li><a href="#">古诗两首</a></li>
-					<li><a href="#">风筝</a></li>
-					<li><a href="#">秋天的雨</a></li>
-					<li><a href="#">听听秋的雨声</a></li>
-				</ul>
-				<div class="links units-row">
-					<div class="unit-50">
-						<a href="#"><img src="images/ziyin.png"><br>字音学习</a>
 
-					</div>
-					<div class="unit-50">
-						<a href="#"><img src="images/tongbu.png"><br>同步练习</a>
-						
-					</div>
-									
+		<div class="units-row content">
+			<div class="main-left unit-20">
+				<!-- ----------------------------------------------未登录状态 -->
+				<div class="log">
+					<p><img src="images/小八哥学汉字图标.png"></p>
+					<p>你好，您尚未<a href="#">登陆</a> , 还没账号？<a href="#">点此</a>注册</p>
 				</div>
-				<a class='btn btn-blue'><i class="fa fa-envelope"></i>信息反馈</a>	
+				<!-- ----------------------------------------------未登录状态 -->
+
+				<!-- ----------------------------------------------登录状态 -->
+				<div class="infobox">
+					<div class="head-big">
+						<img src="images/hp14.jpg">
+					<p>Litter jeo</p>
+					<a href="#">点此注销</a>
+				</div>
+				</div>
+				<br>
+			    <div>
+				<p>个人积分：******</p>
+				<p>个人等级：******</p>
+				</div>
+				<h5>您选择的教材信息</h5>
+				<ul>
+					<li><a href="#">人教版三年级上册</a></li>
+					<a href="/info">—>修改教材信息</a>
+				</ul>
+				
+				<h5>观看记录</h5>
+				<ul>
+					<li><a href="#">课程1...</a></li>
+					<li><a href="#">课程2...</a></li>
+					<li><a href="#">课程3...</a></li>
+					<li><a href="#">课程4...</a></li>
+				</ul>
+				<!-- ----------------------------------------------登录状态 -->
+				
 			</div>
-			<div class="unit-70 main-right">
-				<h5>个人信息</h5>
+			<div class="main-mid unit-60">
+						<h5>个人信息</h5>
 				<form class="info-form" action='user/infochange' method="post">
 				<table class="table table-bordered">
 					<tr>
@@ -83,11 +100,39 @@
 						</td>
 					</tr>
 				</table>
-				<button class="btn btn-blue" type="submit">保存</button>
-				<button class="btn" >取消</button>
+				<a>
+				<button class="btn btn-blue" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button  style="" class="btn btn-default" >取消</button></a>
 			</form>
+			
+				
+				
+			
+			</div>
+			<div class="main-right unit-20">
+				<div class="tips">
+					<h5>发表的帖子</h5>
+					<ul>
+							<li><a href="#">第一课...</a></li>
+							<li><a href="#">第二课...</a></li>
+							<li><a href="#">第三课...</a></li>
+							<li><a href="#">第四课...</a></li>
+					</ul>
+				</div>
+				<div class="tips">
+					<h5>用户活跃度排行</h5>
+					<ul>
+							<li><a href="#">第一课...</a></li>
+							<li><a href="#">第二课...</a></li>
+							<li><a href="#">第三课...</a></li>
+							<li><a href="#">第四课...</a></li>
+													
+					</ul>
+				</div>
+				
 			</div>
 		</div>
+		
 	</div>		
 	@include('footer')
 	{{Input::has('msg') ? "<script type='text/javascript'>alert('修改信息成功');</script>" : "<h1>hello !</h1>"}}
