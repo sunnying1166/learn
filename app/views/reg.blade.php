@@ -1,16 +1,13 @@
 @extends('layout')
 @section('head')
 <title>注册</title>
-@parent
-<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <style type="text/css">
 	#regdiv{
 		width: 80%;
 		height: 40%;
-		/*position: absolute;*/
-		/*top: 10%;*/
-		/*left: 20%;*/
-		margin-top: 30px;
+		position: absolute;
+		left: 10%;
+		top: 20%;
 	}
 </style>
 @stop

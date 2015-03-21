@@ -51,6 +51,17 @@
 						</td>
 					</tr>
 					<tr>
+						<th>教材选择</th>
+						<td>
+							<select name="textversion">
+								<option value="1">人教版</option>
+								<option value="2">苏教版</option>
+								<option value="3">鄂教版</option>
+								<option value="4">北师大版</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
 						<th>昵称</th>
 						<td>
 							<input type="txt" name='nickname' placeholder='昵称'> 	
