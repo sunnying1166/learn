@@ -10,28 +10,32 @@
 	<div class="main">
 		<div class="units-row">
 			<div class="main-left unit-30">
-				<h5>同步课堂</h5>
+				<h5>作者简介</h5>
 				<ul>
-					@foreach($text as $item)
-					<li><a href="course/{{$item['textid']}}">{{$item['texttitle']}}</a></li>
-					@endforeach
+					<li>。。。</li>
 				</ul>
+				<br><br><br>
+				<h5>中心思想</h5>
+				<ul>
+					<li>。。。</li>
+				</ul>
+				<a class='btn btn-blue'><i class="fa fa-envelope"></i>巩固一下吧！</a>	
+				<br><br>
 				<div class="links units-row">
+				<div class="unit-50">
+						<a href="#"><img src="images/tongbu.png"><br>互动社区</a>						
+					</div>
+				
 					<div class="unit-50">
 						<a href="#"><img src="images/ziyin.png"><br>同步课堂</a>
 
-					</div>
-					<div class="unit-50">
-						<a href="#"><img src="images/tongbu.png"><br>互动社区</a>
-						
-					</div>
-									
+					</div>							
 				</div>
-				<a class='btn btn-blue'><i class="fa fa-envelope"></i>信息反馈</a>	
+				
 			</div>
 			<div class="main-mid unit-30">
 				<div class="newword">
-					<h5>诗歌生词</h5>
+					<h5>生字表</h5>
 					<ul>
 						@foreach($anno as $item)
 						<li class="strange">{{$item['zixing']}}({{$item['zipinyin']}})</li>
@@ -39,24 +43,12 @@
 					</ul>
 				</div>
 				<div class="exp">
-					<h5>注释</h5>
+					<h5>课文词组</h5>
 					<ul>
-						<li>古诗两首</li>
-						<li>风筝</li>
-						<li>秋天的雨</li>
-						<li>听听秋的雨声</li>
-						<li>古诗两首</li>
-						<li>风筝</li>
-						<li>秋天的雨</li>
-						<li>听听秋的雨声</li>
-						<li>古诗两首</li>
-						<li>风筝</li>
-						<li>秋天的雨</li>
-						<li>听听秋的雨声</li>
-						<li>古诗两首</li>
-						<li>风筝</li>
-						<li>秋天的雨</li>
-						<li>听听秋的雨声</li>
+						<li>。。。</li>
+						<li>。。。。</li>
+						<li>。。。。。</li>
+						<li>。。。</li>
 					</ul>					
 				</div>
 			</div>
@@ -70,8 +62,6 @@
 						<p>
 							{{$single_text['textcont']}}
 						</p>
-						<!-- <p>萧萧梧叶送寒声①，<br>江上秋风②动客情。<br>
-						知有儿童③挑促织，<br>夜深篱④落一灯明。</p> -->
 					</div>
 				</div>
 			</div>

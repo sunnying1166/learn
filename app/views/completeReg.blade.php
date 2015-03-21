@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+@extends('layout')
+@section('head')
 <title>填写注册信息</title>
-<link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <style type="text/css">
 	.box{
 		width: 50%;
@@ -17,8 +15,8 @@
 		color: red;
 	}
 </style>
-</head>
-<body>
+@stop
+@section('body')
 <div class="box">
 	<form class="form" action="register" method="post">
 		<div class="form-group">
@@ -62,5 +60,4 @@
 		});
 	});
 </script>
-</body>
-</html>
+@stop
