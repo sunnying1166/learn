@@ -14,7 +14,7 @@
 				<!-- ----------------------------------------------未登录状态 -->
 				@if(!Auth::check())
 				<div class="log">
-				<p><img src="/images/小八哥学汉字图标.png"></p>
+				<p><img src="/images/bagelearn.png"></p>
 					<p>你好，您尚未<a href="/user/login">登陆</a> , 还没账号？<a href="/user/register">点此</a>注册</p>
 				</div>
 				@endif
@@ -33,7 +33,7 @@
 				@endif
 				<h5>您选择的教材版本</h5>
 				<ul>
-					<li><a href="#">课程1...</a></li>
+					<li><a href="#">人教版三年级上册</a></li>
 					<a href="/info">—>修改教材版本</a>
 				</ul>
 				<h5>观看记录</h5>
