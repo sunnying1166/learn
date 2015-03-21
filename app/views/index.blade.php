@@ -14,6 +14,7 @@
 				<!-- ----------------------------------------------未登录状态 -->
 				@if(!Auth::check())
 				<div class="log">
+				<p><img src="images/小八哥学汉字图标.png"></p>
 					<p>你好，您尚未<a href="/user/login">登陆</a> , 还没账号？<a href="/user/register">点此</a>注册</p>
 				</div>
 				@endif
@@ -30,19 +31,15 @@
 					</div>
 				</div>
 				@endif
-				<h5>您订阅的课程</h5>
+				<h5>您选择的教材版本</h5>
 				<ul>
 					<li><a href="#">课程1...</a></li>
-					<li><a href="#">课程2...</a></li>
-					<li><a href="#">课程3...</a></li>
-					<li><a href="#">课程4...</a></li>
 				</ul>
 				<h5>观看记录</h5>
 				<ul>
 					<li><a href="#">课程1...</a></li>
 					<li><a href="#">课程2...</a></li>
 					<li><a href="#">课程3...</a></li>
-					<li><a href="#">课程4...</a></li>
 				</ul>
 				<!-- ----------------------------------------------登录状态 -->
 				
@@ -108,7 +105,7 @@
 					
 					
 					<div class="unit-30">
-						<img src="images/noam_lovinsky-1321792a.jpg">
+						<img src="images/每日一答.png">
 						<div style="clear:both;"></div>
 						<button class="btn btn-blue">提交答案</button>
 					</div>
@@ -122,11 +119,11 @@
 			<h5>边学边玩</h5>
 			<div class="game units-row">
 				<div class="unit-50">
-					<img src="images/noam_lovinsky-1321792a.jpg">
+					<img src="images/game.png">
 					小游戏1
 				</div>
 				<div class="unit-50">
-					<img src="images/noam_lovinsky-1321792a.jpg">
+					<img src="images/game.png">
 					小游戏2
 				</div>
 			</div>	
@@ -144,16 +141,16 @@
 					</ul>
 				</div>
 				<div class="tips">
-					<h5>课程排行</h5>
+					<h5>用户活跃度排行</h5>
 					<ul>
-							<li><a href="#">第一课...</a></li>
-							<li><a href="#">第二课...</a></li>
-							<li><a href="#">第三课...</a></li>
-							<li><a href="#">第四课...</a></li>
-							<li><a href="#">第一课...</a></li>
-							<li><a href="#">第二课...</a></li>
-							<li><a href="#">第三课...</a></li>
-							<li><a href="#">第四课...</a></li>							
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">...</a></li>							
 					</ul>
 				</div>
 				<div class="about">
@@ -164,6 +161,9 @@
 		</div>
 		
 	</div>		
-
+<footer>
+		<p>小八哥学习网站</p>
+		
+	</footer>
 <script type="text/javascript" src="js/globle.js"></script>
 	@stop
