@@ -26,7 +26,7 @@ class HomeController extends BaseController {
 	public function dailyQ{
 		$user = Auth::user();
 		$ugrade = $user->ugrade;
-		
+
 	}
 
 	public function getPinyin(){
