@@ -57,8 +57,15 @@ Route::get('/SentenceOrder','OrdersentController@getAll');
 
 /************************EveryDayaQuestion******************************/
 
+Route::get('/test', function(){});
+Route::get('/testpinyin','HomeController@getPinyin');
 /***********************User info ************************************/
 
 Route::post('user/infochange','UserController@infochange');
 
 /**********************************************************************/
+
+/***********************test game ************************************/
+Route::get('/game', function(){
+	return View::make('bird');
+});

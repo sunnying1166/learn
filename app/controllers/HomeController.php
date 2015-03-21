@@ -23,22 +23,40 @@ class HomeController extends BaseController {
 	/*
 	* 每日一答
 	*/ 
-	public function dailyQ{
+	public function dailyQ(){
 		$user = Auth::user();
-		$ugrade = $user->ugrade;
-
+		$sd = (( Auth::user()->ugrade ) - 1) * 2+ （Auth::user()->uterm）;
+		Session::put('sd', $sd);
+		
 	}
 
 	public function getPinyin(){
-		$items = Yicuopinyin::
+		$sd = (( Auth::user()->ugrade ) - 1) * 2+ (Auth::user()->uterm);
+		Session::put('sd', $sd);
+		// $items = Yicuopinyin::all();
+		$sd = Session::get('sd');
+		Log::info("********sd******************");
+		Log::info($sd);
+		LOg::info("*****************************");
+		if($sd < 10)
+			$sd = "0" . (string)$sd ;
+		$sd = "03";
+		// $items = DB::raw('select * from yicuobihua where ycbhsd like "'.$sd.'%"');
+		$items = DB::raw('select * from yicuobihua');
+		$items = DB::table('yicuobihua')->where('ycbhsd', 'like', $sd)->get();
+		var_dump($items); 
+		// $arr = $this->getNumsofItem($items);
+
 	}
 
 	public function getBihua(){
-
+		$sd = Session::get('sd');
+		$items = DB::raw('select * from yicuobihua where "ycbhsd" like '.$sd.'%')->toArray();
+		$arr = $this->getNumsofItem($items);
 	}
 
 	public function getZixing(){
-
+		$items = YicuoZixing::all();
 	}
 
 	/*
@@ -49,6 +67,11 @@ class HomeController extends BaseController {
 	}
 
 	public function getOrdersent(){
+
+	}
+
+	public function getNumsofItem( $items ){
+
 
 	}
 }
