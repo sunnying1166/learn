@@ -47,7 +47,8 @@
 				
 			</div>
 			<div class="main-mid unit-60">
-						<h5>个人信息</h5>
+            <span style="font-weight:bold;font-size:30px;">个人信息</span>
+		      <br><a></a>
 				<form class="info-form" action='user/infochange' method="post">
 				<table class="table table-bordered">
 					<tr>
@@ -95,7 +96,34 @@
 					<tr>
 						<th>个人简介</th>
 						<td>
-							<textarea name="uremark">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velitcillum dolore eu fugiatnulla pariatur. Excepteur sint occaecat cupidatat nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							<textarea name="uremark" style="height:100px";>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velitcillum dolore eu fugiatnulla pariatur. Excepteur sint occaecat cupidatat nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</textarea>
+						</td>
+					</tr>
+				</table>
+				<a>
+				<button class="btn btn-blue" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button  style="" class="btn btn-default" >取消</button></a>
+			</form>
+			<br><br>
+	       <span style="font-weight:bold;font-size:30px;">发表帖子</span>
+		   <br><a></a>
+			<form class="info-form" action='user/333' method="post">
+				<table class="table table-bordered">
+					<tr>
+						<th>帖子类别</th>
+						<td>
+							<select name="tiezikind">
+								<option value="1">学习</option>
+								<option value="2">经验</option>
+								<option value="3">纯聊天</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<th>帖子内容</th>
+						<td>
+							<textarea name="tiezicont" style="height:200px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniquis nostrud 
 							</textarea>
 						</td>
 					</tr>
@@ -103,11 +131,7 @@
 				<a>
 				<button class="btn btn-blue" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<button  style="" class="btn btn-default" >取消</button></a>
-			</form>
-			
-				
-				
-			
+			</form>		
 			</div>
 			<div class="main-right unit-20">
 				<div class="tips">
