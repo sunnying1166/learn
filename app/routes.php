@@ -57,8 +57,12 @@ Route::get('/SentenceOrder','OrdersentController@getAll');
 
 /************************EveryDayaQuestion******************************/
 
+Route::get('/');
+
 /***********************User info ************************************/
 
 Route::post('user/infochange','UserController@infochange');
 
 /**********************************************************************/
+
+

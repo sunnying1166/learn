@@ -25,30 +25,39 @@ class HomeController extends BaseController {
 	*/ 
 	public function dailyQ{
 		$user = Auth::user();
-		$ugrade = $user->ugrade;
+		$sd = (( Auth::user()->ugrade ) - 1) * 2+ （Auth::user()->uterm）;
+		Session::put('sd', $sd);
 		
 	}
 
 	public function getPinyin(){
-		$items = Yicuopinyin::
+		$items = Yicuopinyin::all()->toArray();
+
 	}
 
 	public function getBihua(){
-
+		$sd = Session::get('sd');
+		$items = DB::raw('select * from yicuobihua where ycbhsd like '.$sd.'%')->toArray();
+		$arr = $this->getNumsofItem（$items);
 	}
 
 	public function getZixing(){
-
+		$items = YicuoZixing::all()->toArray();
 	}
 
 	/*
 	*	选出3个正确的句子 一个错误的句子
 	*/
 	public function getIllsent(){
-
+		$items = 
 	}
 
 	public function getOrdersent(){
+
+	}
+
+	public function getNumsofItem( $items ){
+
 
 	}
 }
