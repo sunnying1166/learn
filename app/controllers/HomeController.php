@@ -20,4 +20,35 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	/*
+	* 每日一答
+	*/ 
+	public function dailyQ{
+		$user = Auth::user();
+		$ugrade = $user->ugrade;
+		
+	}
+
+	public function getPinyin(){
+		$items = Yicuopinyin::
+	}
+
+	public function getBihua(){
+
+	}
+
+	public function getZixing(){
+
+	}
+
+	/*
+	*	选出3个正确的句子 一个错误的句子
+	*/
+	public function getIllsent(){
+
+	}
+
+	public function getOrdersent(){
+
+	}
 }
