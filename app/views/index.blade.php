@@ -119,12 +119,11 @@
 			<h5>边学边玩</h5>
 			<div class="game units-row">
 				<div class="unit-50">
-					<img src="images/game.png">
-					小游戏1
+					<img src="images/game.png"><a href="flappy小八哥.html" target="view_window">flappy小八哥</a>
 				</div>
 				<div class="unit-50">
-					<img src="images/game.png">
-					小游戏2
+					<img src="images/game.png"><a href="小八哥版2048！.html" target="view_window">小八哥2048</a>
+
 				</div>
 			</div>	
 			</div>
@@ -161,9 +160,5 @@
 		</div>
 		
 	</div>		
-<footer>
-		<p>小八哥学习网站</p>
-		
-	</footer>
 <script type="text/javascript" src="js/globle.js"></script>
 	@stop
