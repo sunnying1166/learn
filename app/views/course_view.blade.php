@@ -23,9 +23,12 @@
 					<div class="head-big">
 						<img src="images/hp14.jpg">
 					<p>Litter jeo</p>
-					
 					<a href="#">点此注销</a>
 				</div>
+				</div>
+				<div>
+				    <p>个人积分：******</p>
+				    <p>个人等级：******</p>
 				</div>
 				<h5>您选择的教材信息</h5>
 				<ul>
@@ -33,7 +36,7 @@
 					<a href="/info">—>修改教材信息</a>
 				</ul>
 				
-				<h5>观看记录</h5>
+				<h5>学习记录</h5>
 				<ul>
 					<li><a href="#">课程1...</a></li>
 					<li><a href="#">课程2...</a></li>

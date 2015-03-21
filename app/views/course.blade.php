@@ -19,7 +19,8 @@
 				<ul>
 					<li>。。。</li>
 				</ul>
-				<a class='btn btn-blue'><i class="fa fa-envelope"></i>巩固一下吧！</a>	
+				<a href="#"><img src="images/exercise.png"><br>巩固练习</a>
+				/* <a class='btn btn-blue'><i class="fa fa-envelope"></i>巩固一下吧！</a>	 */
 				<br><br>
 				<div class="links units-row">
 				<div class="unit-50">
@@ -67,7 +68,6 @@
 			</div>
 		</div>
 	</div>		
-	<a href="" title="hhh">百度</a>
 	<footer>
 		<p>小八哥学习网站</p>
 	</footer>

@@ -36,7 +36,7 @@
 					<a href="/info">—>修改教材信息</a>
 				</ul>
 				
-				<h5>观看记录</h5>
+				<h5>学习记录</h5>
 				<ul>
 					<li><a href="#">课程1...</a></li>
 					<li><a href="#">课程2...</a></li>
@@ -102,7 +102,7 @@
 					</tr>
 				</table>
 				<a>
-				<button class="btn btn-blue" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="btn btn-blue" type="submit">保存</button>
 				<button  style="" class="btn btn-default" >取消</button></a>
 			</form>
 			<br><br>
@@ -121,6 +121,13 @@
 						</td>
 					</tr>
 					<tr>
+						<th>帖子主题</th>
+						<td>
+							<textarea name="tiezitheme" style="height:50px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniquis nostrud 
+							</textarea>
+						</td>
+					</tr>
+					<tr>
 						<th>帖子内容</th>
 						<td>
 							<textarea name="tiezicont" style="height:200px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniquis nostrud 
@@ -129,22 +136,22 @@
 					</tr>
 				</table>
 				<a>
-				<button class="btn btn-blue" type="submit">保存</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<button class="btn btn-blue" type="submit">保存</button>
 				<button  style="" class="btn btn-default" >取消</button></a>
 			</form>		
 			</div>
 			<div class="main-right unit-20">
 				<div class="tips">
-					<h5>发表的帖子</h5>
+					<h5>我发表的帖子</h5>
 					<ul>
-							<li><a href="#">第一课...</a></li>
+							<li><a href="#"><帖子名称></a></li>
 							<li><a href="#">第二课...</a></li>
 							<li><a href="#">第三课...</a></li>
 							<li><a href="#">第四课...</a></li>
 					</ul>
 				</div>
 				<div class="tips">
-					<h5>用户活跃度排行</h5>
+					<h5>我参与的帖子</h5>
 					<ul>
 							<li><a href="#">第一课...</a></li>
 							<li><a href="#">第二课...</a></li>
